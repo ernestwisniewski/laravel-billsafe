@@ -1,0 +1,23 @@
+{
+  "name": "ernestwisniewski/laravel-billsafe",
+  "description": "Billsafe SDK and samples for REST API for Laravel 5.1",
+  "keywords": [
+    "billsafe"
+  ],
+  "authors": [
+    {
+      "name": "Ernest Wisniewski",
+      "email": "ernestwisniewski2@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "ErnestWisniewski\\LaravelBillsafe\\": "src/Billsafe/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "ernestwisniewski/billsafe-php-sdk": ">=1.0.1"
+  }
+}
